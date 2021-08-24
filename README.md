@@ -15,6 +15,8 @@ Once you've cloned this repository, use the following commands to build and insp
   - *tar_visnetwork()* also shows you the network but with additional nodes of the custom functions used in the pipeline.    
   - To run the workflow use *tar_make()*. Initially this function runs the targets in the order as shown in the network graph produced by *tar_glimpse()* and saves necessary data to the _targets/ data store. The next time you run the *tar_make* function the components of the workflow which have not been touched are skipped.  
   - After you have made any change, you can run *tar_visnetwork()* to see which targets/nodes have been rendered outdated and which ones are uptodate (not been touched by the changes).   
+  - To see the output of a target say for example secondary school performance use *tar_read(sschools_performance)*. Note that some functions return a list of objects and for such cases use *tar_read(pschools_enrolment)[[2]]*  where 2 is the list item you want to see.  
+  
 
   
 This is just a sneak peek into the functionalities of the targets package, for an indepth look into the package see the  [documentation](https://books.ropensci.org/targets/index.html)
