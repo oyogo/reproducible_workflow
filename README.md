@@ -1,6 +1,6 @@
 # Reproducible workflow with targets package
 Data analysis pipelines can get complex at times with large or many scripts and this neccesitates the use of workflows that help in managing the pipelines, this is not just for the sake of reducing/removing the complexity but also for reproducibility purposes.    
-targets package is such a useful tool when it comes to implementing the concept of reproducible workflows. The package helps in developing a workflow engine that permits the usage of functionalized code that only runs the elements of the workflow that have changed.  
+[targets](https://cran.r-project.org/web/packages/targets/index.html) package is such a useful tool when it comes to implementing the concept of reproducible workflows. The package helps in developing a workflow engine that permits the usage of functionalized code that only runs the elements of the workflow that have changed.  
 
 Why targets?  
  * It encourages function-oriented programming style.  
