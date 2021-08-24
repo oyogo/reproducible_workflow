@@ -1,0 +1,361 @@
+"","subcounty","Gender","form","year","enrolment"
+"1","Kathonzweni","Boys","form1","2015",986
+"2","Kibwezi","Boys","form1","2015",2023
+"3","Kilungu","Boys","form1","2015",870
+"4","Makindu","Boys","form1","2015",702
+"5","Makueni","Boys","form1","2015",1707
+"6","Mbooni East","Boys","form1","2015",1077
+"7","Mbooni West","Boys","form1","2015",1392
+"8","Mukaa","Boys","form1","2015",1770
+"9","Nzaui","Boys","form1","2015",1703
+"10","Kathonzweni","Girls","form1","2015",1238
+"11","Kibwezi","Girls","form1","2015",1853
+"12","Kilungu","Girls","form1","2015",800
+"13","Makindu","Girls","form1","2015",789
+"14","Makueni","Girls","form1","2015",1748
+"15","Mbooni East","Girls","form1","2015",1110
+"16","Mbooni West","Girls","form1","2015",1491
+"17","Mukaa","Girls","form1","2015",1477
+"18","Nzaui","Girls","form1","2015",2046
+"19","Kathonzweni","Boys","form2","2015",1112
+"20","Kibwezi","Boys","form2","2015",1916
+"21","Kilungu","Boys","form2","2015",756
+"22","Makindu","Boys","form2","2015",673
+"23","Makueni","Boys","form2","2015",1632
+"24","Mbooni East","Boys","form2","2015",1144
+"25","Mbooni West","Boys","form2","2015",1384
+"26","Mukaa","Boys","form2","2015",1604
+"27","Nzaui","Boys","form2","2015",1605
+"28","Kathonzweni","Girls","form2","2015",1201
+"29","Kibwezi","Girls","form2","2015",1748
+"30","Kilungu","Girls","form2","2015",720
+"31","Makindu","Girls","form2","2015",800
+"32","Makueni","Girls","form2","2015",2757
+"33","Mbooni East","Girls","form2","2015",1115
+"34","Mbooni West","Girls","form2","2015",1534
+"35","Mukaa","Girls","form2","2015",1506
+"36","Nzaui","Girls","form2","2015",1853
+"37","Kathonzweni","Boys","form3","2015",960
+"38","Kibwezi","Boys","form3","2015",1720
+"39","Kilungu","Boys","form3","2015",714
+"40","Makindu","Boys","form3","2015",577
+"41","Makueni","Boys","form3","2015",1626
+"42","Mbooni East","Boys","form3","2015",1046
+"43","Mbooni West","Boys","form3","2015",1358
+"44","Mukaa","Boys","form3","2015",1548
+"45","Nzaui","Boys","form3","2015",1520
+"46","Kathonzweni","Girls","form3","2015",1150
+"47","Kibwezi","Girls","form3","2015",1556
+"48","Kilungu","Girls","form3","2015",786
+"49","Makindu","Girls","form3","2015",682
+"50","Makueni","Girls","form3","2015",1638
+"51","Mbooni East","Girls","form3","2015",1075
+"52","Mbooni West","Girls","form3","2015",1357
+"53","Mukaa","Girls","form3","2015",1185
+"54","Nzaui","Girls","form3","2015",1626
+"55","Kathonzweni","Boys","form4","2015",840
+"56","Kibwezi","Boys","form4","2015",1454
+"57","Kilungu","Boys","form4","2015",706
+"58","Makindu","Boys","form4","2015",514
+"59","Makueni","Boys","form4","2015",1379
+"60","Mbooni East","Boys","form4","2015",965
+"61","Mbooni West","Boys","form4","2015",1131
+"62","Mukaa","Boys","form4","2015",1249
+"63","Nzaui","Boys","form4","2015",1225
+"64","Kathonzweni","Girls","form4","2015",884
+"65","Kibwezi","Girls","form4","2015",1254
+"66","Kilungu","Girls","form4","2015",724
+"67","Makindu","Girls","form4","2015",474
+"68","Makueni","Girls","form4","2015",1487
+"69","Mbooni East","Girls","form4","2015",1013
+"70","Mbooni West","Girls","form4","2015",1095
+"71","Mukaa","Girls","form4","2015",1031
+"72","Nzaui","Girls","form4","2015",1311
+"73","Kathonzweni","Boys","form1","2016",1062
+"74","Kibwezi","Boys","form1","2016",2121
+"75","Kilungu","Boys","form1","2016",909
+"76","Makindu","Boys","form1","2016",723
+"77","Makueni","Boys","form1","2016",1690
+"78","Mbooni East","Boys","form1","2016",1123
+"79","Mbooni West","Boys","form1","2016",1454
+"80","Mukaa","Boys","form1","2016",1790
+"81","Nzaui","Boys","form1","2016",1613
+"82","Kathonzweni","Girls","form1","2016",1199
+"83","Kibwezi","Girls","form1","2016",2057
+"84","Kilungu","Girls","form1","2016",816
+"85","Makindu","Girls","form1","2016",848
+"86","Makueni","Girls","form1","2016",1797
+"87","Mbooni East","Girls","form1","2016",1270
+"88","Mbooni West","Girls","form1","2016",1508
+"89","Mukaa","Girls","form1","2016",1479
+"90","Nzaui","Girls","form1","2016",1896
+"91","Kathonzweni","Boys","form2","2016",1039
+"92","Kibwezi","Boys","form2","2016",2038
+"93","Kilungu","Boys","form2","2016",914
+"94","Makindu","Boys","form2","2016",689
+"95","Makueni","Boys","form2","2016",1739
+"96","Mbooni East","Boys","form2","2016",1111
+"97","Mbooni West","Boys","form2","2016",1452
+"98","Mukaa","Boys","form2","2016",1810
+"99","Nzaui","Boys","form2","2016",1669
+"100","Kathonzweni","Girls","form2","2016",1284
+"101","Kibwezi","Girls","form2","2016",1998
+"102","Kilungu","Girls","form2","2016",838
+"103","Makindu","Girls","form2","2016",765
+"104","Makueni","Girls","form2","2016",1812
+"105","Mbooni East","Girls","form2","2016",1199
+"106","Mbooni West","Girls","form2","2016",1577
+"107","Mukaa","Girls","form2","2016",1448
+"108","Nzaui","Girls","form2","2016",1940
+"109","Kathonzweni","Boys","form3","2016",1028
+"110","Kibwezi","Boys","form3","2016",1891
+"111","Kilungu","Boys","form3","2016",744
+"112","Makindu","Boys","form3","2016",577
+"113","Makueni","Boys","form3","2016",1598
+"114","Mbooni East","Boys","form3","2016",1160
+"115","Mbooni West","Boys","form3","2016",1389
+"116","Mukaa","Boys","form3","2016",1703
+"117","Nzaui","Boys","form3","2016",1542
+"118","Kathonzweni","Girls","form3","2016",1182
+"119","Kibwezi","Girls","form3","2016",1698
+"120","Kilungu","Girls","form3","2016",747
+"121","Makindu","Girls","form3","2016",782
+"122","Makueni","Girls","form3","2016",1748
+"123","Mbooni East","Girls","form3","2016",1135
+"124","Mbooni West","Girls","form3","2016",1484
+"125","Mukaa","Girls","form3","2016",1396
+"126","Nzaui","Girls","form3","2016",1811
+"127","Kathonzweni","Boys","form4","2016",976
+"128","Kibwezi","Boys","form4","2016",1579
+"129","Kilungu","Boys","form4","2016",695
+"130","Makindu","Boys","form4","2016",566
+"131","Makueni","Boys","form4","2016",1575
+"132","Mbooni East","Boys","form4","2016",1090
+"133","Mbooni West","Boys","form4","2016",2111
+"134","Mukaa","Boys","form4","2016",1449
+"135","Nzaui","Boys","form4","2016",1414
+"136","Kathonzweni","Girls","form4","2016",965
+"137","Kibwezi","Girls","form4","2016",1499
+"138","Kilungu","Girls","form4","2016",762
+"139","Makindu","Girls","form4","2016",555
+"140","Makueni","Girls","form4","2016",1539
+"141","Mbooni East","Girls","form4","2016",1107
+"142","Mbooni West","Girls","form4","2016",1248
+"143","Mukaa","Girls","form4","2016",1076
+"144","Nzaui","Girls","form4","2016",1511
+"145","Kathonzweni","Boys","form1","2017",1145
+"146","Kibwezi","Boys","form1","2017",2118
+"147","Kilungu","Boys","form1","2017",873
+"148","Makindu","Boys","form1","2017",689
+"149","Makueni","Boys","form1","2017",1726
+"150","Mbooni East","Boys","form1","2017",1139
+"151","Mbooni West","Boys","form1","2017",1597
+"152","Mukaa","Boys","form1","2017",1724
+"153","Nzaui","Boys","form1","2017",1763
+"154","Kathonzweni","Girls","form1","2017",1295
+"155","Kibwezi","Girls","form1","2017",2076
+"156","Kilungu","Girls","form1","2017",867
+"157","Makindu","Girls","form1","2017",1032
+"158","Makueni","Girls","form1","2017",1908
+"159","Mbooni East","Girls","form1","2017",1206
+"160","Mbooni West","Girls","form1","2017",1566
+"161","Mukaa","Girls","form1","2017",1438
+"162","Nzaui","Girls","form1","2017",1841
+"163","Kathonzweni","Boys","form2","2017",1086
+"164","Kibwezi","Boys","form2","2017",2199
+"165","Kilungu","Boys","form2","2017",852
+"166","Makindu","Boys","form2","2017",655
+"167","Makueni","Boys","form2","2017",1699
+"168","Mbooni East","Boys","form2","2017",1070
+"169","Mbooni West","Boys","form2","2017",1490
+"170","Mukaa","Boys","form2","2017",1772
+"171","Nzaui","Boys","form2","2017",1621
+"172","Kathonzweni","Girls","form2","2017",1280
+"173","Kibwezi","Girls","form2","2017",2118
+"174","Kilungu","Girls","form2","2017",853
+"175","Makindu","Girls","form2","2017",839
+"176","Makueni","Girls","form2","2017",1800
+"177","Mbooni East","Girls","form2","2017",1147
+"178","Mbooni West","Girls","form2","2017",1596
+"179","Mukaa","Girls","form2","2017",1368
+"180","Nzaui","Girls","form2","2017",1831
+"181","Kathonzweni","Boys","form3","2017",1122
+"182","Kibwezi","Boys","form3","2017",1877
+"183","Kilungu","Boys","form3","2017",826
+"184","Makindu","Boys","form3","2017",648
+"185","Makueni","Boys","form3","2017",1741
+"186","Mbooni East","Boys","form3","2017",1034
+"187","Mbooni West","Boys","form3","2017",1272
+"188","Mukaa","Boys","form3","2017",1734
+"189","Nzaui","Boys","form3","2017",1547
+"190","Kathonzweni","Girls","form3","2017",1273
+"191","Kibwezi","Girls","form3","2017",1821
+"192","Kilungu","Girls","form3","2017",821
+"193","Makindu","Girls","form3","2017",730
+"194","Makueni","Girls","form3","2017",1703
+"195","Mbooni East","Girls","form3","2017",1161
+"196","Mbooni West","Girls","form3","2017",1423
+"197","Mukaa","Girls","form3","2017",1273
+"198","Nzaui","Girls","form3","2017",1819
+"199","Kathonzweni","Boys","form4","2017",974
+"200","Kibwezi","Boys","form4","2017",1693
+"201","Kilungu","Boys","form4","2017",713
+"202","Makindu","Boys","form4","2017",533
+"203","Makueni","Boys","form4","2017",1478
+"204","Mbooni East","Boys","form4","2017",1070
+"205","Mbooni West","Boys","form4","2017",1253
+"206","Mukaa","Boys","form4","2017",1554
+"207","Nzaui","Boys","form4","2017",1418
+"208","Kathonzweni","Girls","form4","2017",1058
+"209","Kibwezi","Girls","form4","2017",1640
+"210","Kilungu","Girls","form4","2017",729
+"211","Makindu","Girls","form4","2017",618
+"212","Makueni","Girls","form4","2017",1680
+"213","Mbooni East","Girls","form4","2017",1012
+"214","Mbooni West","Girls","form4","2017",1273
+"215","Mukaa","Girls","form4","2017",1269
+"216","Nzaui","Girls","form4","2017",1742
+"217","Kathonzweni","Boys","form1","2018",1329
+"218","Kibwezi","Boys","form1","2018",2347
+"219","Kilungu","Boys","form1","2018",944
+"220","Makindu","Boys","form1","2018",815
+"221","Makueni","Boys","form1","2018",1986
+"222","Mbooni East","Boys","form1","2018",1261
+"223","Mbooni West","Boys","form1","2018",1746
+"224","Mukaa","Boys","form1","2018",1915
+"225","Nzaui","Boys","form1","2018",1969
+"226","Kathonzweni","Girls","form1","2018",1452
+"227","Kibwezi","Girls","form1","2018",2442
+"228","Kilungu","Girls","form1","2018",1046
+"229","Makindu","Girls","form1","2018",1145
+"230","Makueni","Girls","form1","2018",2028
+"231","Mbooni East","Girls","form1","2018",1418
+"232","Mbooni West","Girls","form1","2018",1584
+"233","Mukaa","Girls","form1","2018",1494
+"234","Nzaui","Girls","form1","2018",2110
+"235","Kathonzweni","Boys","form2","2018",1180
+"236","Kibwezi","Boys","form2","2018",2150
+"237","Kilungu","Boys","form2","2018",842
+"238","Makindu","Boys","form2","2018",673
+"239","Makueni","Boys","form2","2018",1720
+"240","Mbooni East","Boys","form2","2018",1085
+"241","Mbooni West","Boys","form2","2018",1518
+"242","Mukaa","Boys","form2","2018",1770
+"243","Nzaui","Boys","form2","2018",1752
+"244","Kathonzweni","Girls","form2","2018",1285
+"245","Kibwezi","Girls","form2","2018",2209
+"246","Kilungu","Girls","form2","2018",867
+"247","Makindu","Girls","form2","2018",983
+"248","Makueni","Girls","form2","2018",1834
+"249","Mbooni East","Girls","form2","2018",1166
+"250","Mbooni West","Girls","form2","2018",1469
+"251","Mukaa","Girls","form2","2018",1400
+"252","Nzaui","Girls","form2","2018",1892
+"253","Kathonzweni","Boys","form3","2018",1095
+"254","Kibwezi","Boys","form3","2018",1980
+"255","Kilungu","Boys","form3","2018",828
+"256","Makindu","Boys","form3","2018",656
+"257","Makueni","Boys","form3","2018",1671
+"258","Mbooni East","Boys","form3","2018",1025
+"259","Mbooni West","Boys","form3","2018",1419
+"260","Mukaa","Boys","form3","2018",1703
+"261","Nzaui","Boys","form3","2018",1552
+"262","Kathonzweni","Girls","form3","2018",1309
+"263","Kibwezi","Girls","form3","2018",2117
+"264","Kilungu","Girls","form3","2018",763
+"265","Makindu","Girls","form3","2018",811
+"266","Makueni","Girls","form3","2018",1838
+"267","Mbooni East","Girls","form3","2018",1115
+"268","Mbooni West","Girls","form3","2018",1553
+"269","Mukaa","Girls","form3","2018",1336
+"270","Nzaui","Girls","form3","2018",1873
+"271","Kathonzweni","Boys","form4","2018",1042
+"272","Kibwezi","Boys","form4","2018",1809
+"273","Kilungu","Boys","form4","2018",781
+"274","Makindu","Boys","form4","2018",644
+"275","Makueni","Boys","form4","2018",1629
+"276","Mbooni East","Boys","form4","2018",984
+"277","Mbooni West","Boys","form4","2018",1356
+"278","Mukaa","Boys","form4","2018",1654
+"279","Nzaui","Boys","form4","2018",1541
+"280","Kathonzweni","Girls","form4","2018",1128
+"281","Kibwezi","Girls","form4","2018",1758
+"282","Kilungu","Girls","form4","2018",748
+"283","Makindu","Girls","form4","2018",567
+"284","Makueni","Girls","form4","2018",1850
+"285","Mbooni East","Girls","form4","2018",1116
+"286","Mbooni West","Girls","form4","2018",1365
+"287","Mukaa","Girls","form4","2018",1245
+"288","Nzaui","Girls","form4","2018",1864
+"289","Kathonzweni","Boys","form1","2019",1249
+"290","Kibwezi","Boys","form1","2019",2844
+"291","Kilungu","Boys","form1","2019",1008
+"292","Makindu","Boys","form1","2019",856
+"293","Makueni","Boys","form1","2019",2026
+"294","Mbooni East","Boys","form1","2019",1391
+"295","Mbooni West","Boys","form1","2019",1872
+"296","Mukaa","Boys","form1","2019",1937
+"297","Nzaui","Boys","form1","2019",2085
+"298","Kathonzweni","Girls","form1","2019",1462
+"299","Kibwezi","Girls","form1","2019",3164
+"300","Kilungu","Girls","form1","2019",1130
+"301","Makindu","Girls","form1","2019",1147
+"302","Makueni","Girls","form1","2019",2297
+"303","Mbooni East","Girls","form1","2019",1387
+"304","Mbooni West","Girls","form1","2019",1710
+"305","Mukaa","Girls","form1","2019",1484
+"306","Nzaui","Girls","form1","2019",2110
+"307","Kathonzweni","Boys","form2","2019",1342
+"308","Kibwezi","Boys","form2","2019",2421
+"309","Kilungu","Boys","form2","2019",928
+"310","Makindu","Boys","form2","2019",773
+"311","Makueni","Boys","form2","2019",1901
+"312","Mbooni East","Boys","form2","2019",1249
+"313","Mbooni West","Boys","form2","2019",1757
+"314","Mukaa","Boys","form2","2019",1850
+"315","Nzaui","Boys","form2","2019",1955
+"316","Kathonzweni","Girls","form2","2019",1432
+"317","Kibwezi","Girls","form2","2019",2483
+"318","Kilungu","Girls","form2","2019",1013
+"319","Makindu","Girls","form2","2019",1089
+"320","Makueni","Girls","form2","2019",1841
+"321","Mbooni East","Girls","form2","2019",1470
+"322","Mbooni West","Girls","form2","2019",1678
+"323","Mukaa","Girls","form2","2019",1483
+"324","Nzaui","Girls","form2","2019",2049
+"325","Kathonzweni","Boys","form3","2019",1190
+"326","Kibwezi","Boys","form3","2019",2092
+"327","Kilungu","Boys","form3","2019",932
+"328","Makindu","Boys","form3","2019",642
+"329","Makueni","Boys","form3","2019",1706
+"330","Mbooni East","Boys","form3","2019",1181
+"331","Mbooni West","Boys","form3","2019",1516
+"332","Mukaa","Boys","form3","2019",1688
+"333","Nzaui","Boys","form3","2019",1712
+"334","Kathonzweni","Girls","form3","2019",1295
+"335","Kibwezi","Girls","form3","2019",2127
+"336","Kilungu","Girls","form3","2019",913
+"337","Makindu","Girls","form3","2019",917
+"338","Makueni","Girls","form3","2019",1810
+"339","Mbooni East","Girls","form3","2019",1230
+"340","Mbooni West","Girls","form3","2019",1577
+"341","Mukaa","Girls","form3","2019",1312
+"342","Nzaui","Girls","form3","2019",1888
+"343","Kathonzweni","Boys","form4","2019",1097
+"344","Kibwezi","Boys","form4","2019",1936
+"345","Kilungu","Boys","form4","2019",810
+"346","Makindu","Boys","form4","2019",627
+"347","Makueni","Boys","form4","2019",1637
+"348","Mbooni East","Boys","form4","2019",1022
+"349","Mbooni West","Boys","form4","2019",1359
+"350","Mukaa","Boys","form4","2019",2142
+"351","Nzaui","Boys","form4","2019",1495
+"352","Kathonzweni","Girls","form4","2019",1305
+"353","Kibwezi","Girls","form4","2019",1986
+"354","Kilungu","Girls","form4","2019",668
+"355","Makindu","Girls","form4","2019",768
+"356","Makueni","Girls","form4","2019",1885
+"357","Mbooni East","Girls","form4","2019",1100
+"358","Mbooni West","Girls","form4","2019",1420
+"359","Mukaa","Girls","form4","2019",1289
+"360","Nzaui","Girls","form4","2019",1721

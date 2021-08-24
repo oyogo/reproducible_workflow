@@ -1,0 +1,32 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
+raw_data_file|stem|acb23b8fb95acc98|5c04b338b8c9a1a3|ef46db3751d8e999|2110307107|data/secondary_schools_stabstract.csv|t18788.7625761047s|a8c5a00019aceae0|15841|file|vector|||0.74|package plotly was built under R version 4.0.2|
+raw_data|stem|0cbe946d95443198|e7dc0a644c38050a|8c8d1e063ba9f43b|-979620141||t18860.7487391001s|e09800554e709ab9|1981|rds|vector|||0.882|package plotly was built under R version 4.0.2|
+modelling|stem|a5308ed7ae99be24|af568e690a9be795|d0299b7efe360ad7|1125589812||t18860.7517753244s|ae554ca7b2a44275|271|rds|vector|||0.006||
+tobject|stem|4e3dba81985f10e6|8a7aa5d8ddd84f45|81163bd13433b7b0|408932560||t18860.7522288219s|b8722b1cea90478b|442|rds|vector|||0.825|package plotly was built under R version 4.0.2|
+model_xdata|function|91573f268e31fabf||||||||||||||
+visualize_xdata|function|8a404b269d1e215a||||||||||||||
+transform_xdata|function|130e5b5336889e2f||||||||||||||
+viz|stem|773b99dfea12016b|5101b30f79ca3bdb|c7452590952abea4|-1669120016||t18860.7626733098s|153941a435228073|69204|rds|vector|||1.073|package plotly was built under R version 4.0.2|
+education_rawdata_files|stem|dcf28ba7547d2723|44444df6a2947994|ffabc707b3eb5956|103103325||t18862.3696892779s|2c73828870636f45|908|rds|vector|||0.762|package plotly was built under R version 4.0.2|
+pschools_enrolment|stem|7338497281e252a1|3abc13799e215ff8|90fdfd14c5c2a765|1153018786||t18863.2589594368s|0b0a4878e897f822|75709|rds|vector|||2.086|package sp was built under R version 4.0.2|
+pschools_distribution|stem|f89ef0635f5d5c23|3d39e4c0933b0158|eb9df56afef448bb|-1603553229||t18863.2589614759s|88426923b578bf11|75638|rds|vector|||0.143|Specifying widthheight in layout is now deprecated.Please specify in ggplotly or plot_ly|
+importing_data|stem|c324e79bf12f40ea|23456b2110c863e3|b6d8d531c44c6557|1956919244||t18863.3488618946s|2c19634742cb1455|196510|rds|vector|||3.517|package sp was built under R version 4.0.2|
+primary_schools_rawdata|stem|8d0d258207ddabeb|5d7eeeefcf17e51c|36e54d204efd9082|-307348373||t18863.3488645104s|a7f9182e1d5d4781|68855|rds|vector|||0.18|CRS object has comment, which is lost in output|
+pschools_perfomance_visualizations|function|2adde8a6c55d1a07||||||||||||||
+secondary_schools_rawdata|stem|51a0f811beb345e8|574cf1da8f204695|d2f5fb5871887d0e|783523876||t18863.378800746s|4fa7fb51b9fcb018|32041|rds|vector|||2.34|The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2meltsabstract_secschools_data. In the next version, this warning will become an error.|
+sschools_enrolment|stem|1f80d793fdc3d942|6718816a730ab4ad|25ac62fb83339fc0|2081896987||t18863.3788019069s|fb7f3d8e1bf721b1|67447|rds|vector|||0.031||
+sschools_performance|stem|9e28eaf1433f5821|f4e6c6aa84a554d5|d4f22fb5d979603c|1200566834||t18863.3788024355s|b88825a49b16a71c|31113|rds|vector|||0.027||
+importing_datafiles|function|76f7be4b894a3e6f||||||||||||||
+s.school_data_transformations|function|3496048953abd925||||||||||||||
+sschools_perfomance_visualizations|function|2adde8a6c55d1a07||||||||||||||
+pschools_enrolment_visualizations|function|a4f28f2812098c81||||||||||||||
+initialize_datapaths|function|a6b0d259fabcf73d||||||||||||||
+p.school_data_transformations|function|0b6c8a54a924d46e||||||||||||||
+pschools_distribution_visualizations|function|a7996896513c658e||||||||||||||
+sschools_enrolment_visualizations|function|84b4b4514ac9b20a||||||||||||||
+pschools_data_transformation|stem|8d0d258207ddabeb|5d7eeeefcf17e51c|36e54d204efd9082|-2096630608||t18863.4046245027s|a7f9182e1d5d4781|68855|rds|vector|||2.954|CRS object has comment, which is lost in output|
+sschools_data_transformation|stem|51a0f811beb345e8|574cf1da8f204695|d2f5fb5871887d0e|-861784495||t18863.4046276636s|4fa7fb51b9fcb018|32041|rds|vector|||0.252|The melt generic in data.table has been passed a data.frame and will attempt to redirect to the relevant reshape2 method please note that reshape2 is deprecated, and this redirection is now deprecated as well. To continue using melt methods from reshape2 while both libraries are attached, e.g. melt.list, you can prepend the namespace like reshape2meltsabstract_secschools_data. In the next version, this warning will become an error.|
+primschools_enrolment_visualizations|stem|775bcebb3c74550e|fc689bcf24dc4a1b|abe83ab504fdfc46|-1016775516||t18863.404629042s|baffa3f560b6a3f8|75716|rds|vector|||0.082||
+primschools_distribution_visualization|stem|70565a94c2695862|3f206638cd5c2cf4|3c2b0ac8c7ad799c|-1647567308||t18863.4046319735s|db11e8bf12caaed8|75644|rds|vector|||0.22|Specifying widthheight in layout is now deprecated.Please specify in ggplotly or plot_ly|
+secschools_enrolment_visualizations|stem|1f80d793fdc3d942|9c87df3b3fb6dd7a|e808982baf34137e|307633724||t18863.4046330132s|fb7f3d8e1bf721b1|67447|rds|vector|||0.041||
+secschools_performance_visualizations|stem|c6edf61961ee6035|bcae72f9152752a2|6cfd4bbf2c2100ea|540104530||t18863.4046334652s|0c0d946aa22c3c27|31116|rds|vector|||0.018||
