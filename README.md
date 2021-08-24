@@ -7,12 +7,18 @@ Why targets?
  * The pipeline only runs those constituents/elements of the workflow which have changed. This saves you the pain of having to wait for costly runtime tasks that do not need updating.  
  * Implements computational reproducibility: the ability to document data, analyses, and models in such a way that another person won't find it hard to understand and re-execute your workflow. 
 
-# Example with Education module data from Makueni resource hub
+## Example with Education module data from Makueni resource hub
 
-Steps: 
-  - create a project in your RStudio and install targets package i.e install.packages("targets"),
-  - use the tar_script() function from targets package to create the _targets script file 
-A minimal file structure would be something like the image below: 
+Once you've cloned this repository, use the following commands to build and inspect the pipeline:   
+
+  - use *tar_glimpse()* to see the graphical display of how the targets/nodes are connected.    
+  - *tar_visnetwork()* also shows you the network but with additional nodes of the custom functions used in the pipeline.    
+  - To run the workflow use *tar_make()*. Initially this function runs the targets in the order as shown in the network graph produced by *tar_glimpse()* and saves necessary data to the _targets/ data store. The next time you run the *tar_make* function the components of the workflow which have not been touched are skipped.  
+  - After you have made any change, you can run *tar_visnetwork()* to see which targets/nodes have been rendered outdated and which ones are uptodate (not been touched by the changes).   
+
+  
+This is just a sneak peek into the functionalities of the targets package, for an indepth look into the package see the  [documentation](https://books.ropensci.org/targets/index.html)
+
 
 
 
