@@ -63,15 +63,77 @@ p.school_data_transformations <- function(edepartment_data,sabstract_data,wards_
    
    primary_schools_data <- as.data.frame(primary_schools_data)
   
-  #combined_primary_schoolsdata <- rbind(primary_schools_nolatlong,primary_schools_data)
-  
+  #combined_primary_schoolsdata <- rbind(primary_schools_nolatlong,primary_schools_data
    primary_schools_data$enrol_girls <- as.integer(primary_schools_data$enrol_girls)
    primary_schools_data$enrol_boys <- as.integer(primary_schools_data$enrol_boys)
    primary_schools_data$enrol_total <- as.integer(primary_schools_data$enrol_total)
+   primary_schools_data$kcpe_primary <- as.integer(primary_schools_data$kcpe_primary)
+   primary_schools_data$total_teachers <- as.integer(primary_schools_data$total_teachers)
+   
+   primary_schools_data <- primary_schools_data %>%
+     dplyr::filter_at(
+       dplyr::vars(
+         "enrol_boys",
+         "enrol_girls",
+         "enrol_total",
+         "tsc_teachers_female",
+         "tsc_teachers_male",
+         "bom_male",
+         "bom_female",
+         "total_teachers"
+       ),
+       dplyr::all_vars(. !=-9999)
+     )
+   
+   # operations on columns (conversion to integer and string manipulation)
+   #  primary_schools_data <-  primary_schools_data[, `:=` (
+   #   kcpe_primary = stringr::str_to_lower(stringr::str_trim(kcpe_primary)),
+   #   type_gender = stringr::str_to_lower(stringr::str_trim(type_gender)),
+   #   enrol_girls = as.integer(enrol_girls),
+   #   enrol_boys = as.integer(enrol_boys),
+   #   enrol_total = as.integer(enrol_total),
+   #   total_teachers = as.integer(total_teachers),
+   #   tsc_teachers_male = as.integer(tsc_teachers_male),
+   #   tsc_teachers_female = as.integer(tsc_teachers_female),
+   #   bom_female = as.integer(bom_female)
+   # )]
+    
+   # create new column for average marks categories---- 
+    primary_schools_data <- data.table::setDT(primary_schools_data)[, average_marks := ordered(stringi::stri_replace_all_fixed(
+      cut(kcpe_primary, breaks = seq(0,500,100), right=FALSE),
+      pattern = c("[0,100)","[100,200)","[200,300)","[300,400)","[400,500)"),
+      replacement = c("[0-100]","[100-200]","[200-300]","[300-400]","[400-500]"),
+      vectorize_all = FALSE
+    ), levels =c("[0-100]","[100-200]","[200-300]","[300-400]","[400-500]"))]
   
-  
+   # data for plotting treemap on teaching staff panel
+   
+   pry_treemap_data <- primary_schools_data %>% dplyr::group_by(wards_new) %>%
+     dplyr::summarise(enrol_total = sum(enrol_total), total_teachers = sum(total_teachers)) %>%
+     dplyr::mutate(studteach_ratio=round(enrol_total/total_teachers,0)) %>%
+     dplyr::filter(studteach_ratio !=Inf & wards_new !="NA")
+   
+   # primary school teachers data object -  to be used in teaching staff panel
+   
+   primary_sch_teachers <- data.table::melt(
+     primary_schools_data,
+     id.vars = "wards_new",
+     measure.vars = c("tsc_teachers_male","tsc_teachers_female", "bom_male","bom_female"), 
+     variable.name = "teachers_gender", 
+     value.name = "teacher.count"
+   )
+   
+   #primary_sch_teachers <- data.table(primary_sch_teachers)
+   
+   primary_sch_teachers <- primary_sch_teachers[, teachers_gender := stringr::str_remove(teachers_gender, "_teachers")]
+   primary_sch_teachers <- primary_sch_teachers[, teacher := stringr::str_split(teachers_gender, "_", simplify = TRUE)[,1]]
+   primary_sch_teachers <- primary_sch_teachers[, gender := stringr::str_split(teachers_gender, "_", simplify = TRUE)[,2]]
+   
+   pry_sch_teachers <- primary_sch_teachers[, teacher.count := as.numeric(teacher.count)]
+   
   # data from statistical abstract----
   sabstract_data <- data.table::setDT(sabstract_data)
+   
   # melt the data to long format
   sabstract_data_long <- data.table::melt.data.table(sabstract_data, id.vars = "subcounty",
                                                    #measure.vars = public_Boys_2017:private_Girls_2019 ,
@@ -82,6 +144,6 @@ p.school_data_transformations <- function(edepartment_data,sabstract_data,wards_
   
   
   
-  return(list(primary_schools_data,sabstract_data_split))
+  return(list(primary_schools_data,sabstract_data_split,pry_treemap_data,pry_sch_teachers))
 
 }

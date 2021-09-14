@@ -2,7 +2,7 @@
 importing_datafiles <- function(){
   
   # data from Makueni County education department----
-  primary.schools_edepartment <- read.csv("data/PRIMARY SCHOOLS MERGED 1.csv", 
+  primary.schools_edepartment <- read.csv("../raw_data/PRIMARY SCHOOLS MERGED 1.csv", 
                                        fileEncoding = "latin1", stringsAsFactors = FALSE, na.strings = "NA")
   
   colnames(primary.schools_edepartment) <- c("s_no","county","subcounty","education_zone","constituency","ward","school_name","type_priv_pub","latitudes","longitudes","nullcol",
@@ -12,17 +12,17 @@ importing_datafiles <- function(){
                                   "lab_perm","lab_temp","boystoilet_perm","boystoilet_temp","girlstoilet_perm","girlstoilet_temp","kcpe_primary","kcse_secondary","contact_principal")
   
   # data from statistical abstract 2020----
-  primary.schools_statabstract <- fread("data/primary_enrollment_sctypesex.csv")
+  primary.schools_statabstract <- fread("../raw_data/primary_enrollment_sctypesex.csv")
   
   
   
   # secondary schools raw data from statistical abstract----
   
-  secondary_enrolment_2015 <- read.csv("data/secondary_enrolscsexclass_2015.csv")
-  secondary_enrolment_2016 <- read.csv("data/secondary_enrolscsexclass_2016.csv")
-  secondary_enrolment_2017 <- read.csv("data/secondary_enrolscsexclass_2017.csv")
-  secondary_enrolment_2018 <- read.csv("data/secondary_enrolscsexclass_2018.csv")
-  secondary_enrolment_2019 <- read.csv("data/secondary_enrolscsexclass_2019.csv")
+  secondary_enrolment_2015 <- read.csv("../raw_data/secondary_enrolscsexclass_2015.csv")
+  secondary_enrolment_2016 <- read.csv("../raw_data/secondary_enrolscsexclass_2016.csv")
+  secondary_enrolment_2017 <- read.csv("../raw_data/secondary_enrolscsexclass_2017.csv")
+  secondary_enrolment_2018 <- read.csv("../raw_data/secondary_enrolscsexclass_2018.csv")
+  secondary_enrolment_2019 <- read.csv("../raw_data/secondary_enrolscsexclass_2019.csv")
   
   combined_data <- merge(secondary_enrolment_2015,secondary_enrolment_2016)
   combined_data <- merge(combined_data,secondary_enrolment_2017)
@@ -31,7 +31,7 @@ importing_datafiles <- function(){
   
   # secondary schools raw data from Education department----
   
-  sschools_eddep <- read.csv("data/SECONDARY LIST.csv") 
+  sschools_eddep <- read.csv("../raw_data/SECONDARY LIST.csv") 
   
   colnames(sschools_eddep) <- c("s_no","county","subcounty","education_zone","constituency","ward","school_name","latitudes","longitudes","school_type","tsc_code","knec_code","nemis_code",
                              "sponsor","landarea_ha","level","type_priv_pub","type_priv_pub2","registration_status","empty_column","type_day_boarding","type_regular_integrated",
@@ -41,7 +41,7 @@ importing_datafiles <- function(){
   
   
   # import wards shapefile----
-  wards_shapefile <- shapefile("data/shp/Makueni_Wards.shp") %>%
+  wards_shapefile <- shapefile("../raw_data/shp/Makueni_Wards.shp") %>%
     sp::spTransform(.,sp::CRS(" +proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 "))
   
   return(list(
