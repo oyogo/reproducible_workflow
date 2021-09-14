@@ -19,6 +19,8 @@ source("R/pschool_enrolment_script.R")
 source("R/s.school_data_transformation_script.R")
 source("R/sschool_enrolment_script.R")
 source("R/sschool_performance_script.R")
+source("R/sschool_tstaff_script.R")
+source("R/sschool_distribution_script.R")
 
 
 # Set target-specific options such as packages.
@@ -31,9 +33,15 @@ list(
   tar_target(pschools_data_transformation, p.school_data_transformations(importing_data[[1]],importing_data[[2]],importing_data[[4]])),
   tar_target(pryschools_distribution_visualizations, pschools_distribution_visualizations(pschools_data_transformation[[1]],importing_data[[4]])),
   tar_target(pryschools_performance_visualizations, pschools_performance_visualizations(pschools_data_transformation[[1]])),
-  tar_target(pryschools_tstaff, pschool_tstaff_visualizations(pschools_data_transformation[[1]],importing_data[[4]],pschools_data_transformation[[3]],pschools_data_transformation[[4]])),
+  tar_target(pryschools_tstaff, pschool_tstaff_visualizations(pschools_data_transformation[[1]],importing_data[[4]],
+                                                              pschools_data_transformation[[3]],pschools_data_transformation[[4]])),
   tar_target(pryschools_enrolment_visualizations, pschools_enrolment_visualizations(pschools_data_transformation[[2]],pschools_data_transformation[[1]],importing_data[[4]])),
   tar_target(secschools_data_transformation, s.school_data_transformations(importing_data[[3]],importing_data[[4]],importing_data[[5]])),
-  tar_target(secschools_enrolment_visualizations, sschools_enrolment_visualizations(secschools_data_transformation[[2]])),
-  tar_target(secschools_performance_visualizations, sschools_perfomance_visualizations(secschools_data_transformation[[1]]))
+  tar_target(secschools_enrolment_visualizations, sschools_enrolment_visualizations(secschools_data_transformation[[2]],
+                                                                                    secschools_data_transformation[[5]],secschools_data_transformation[[1]],importing_data[[4]])),
+  tar_target(secschools_performance_visualizations, sschools_perfomance_visualizations(secschools_data_transformation[[1]])),
+  tar_target(secschools_tstaff_visualizations,sschools_tstaff_visualizations(secschools_data_transformation[[3]],
+                                                                             secschools_data_transformation[[4]],secschools_data_transformation[[1]],importing_data[[4]])),
+  tar_target(secschools_distribution,
+             sschools_distribution_visualizations(secschools_data_transformation[[1]],importing_data[[4]]))
 )

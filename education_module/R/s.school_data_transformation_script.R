@@ -107,14 +107,29 @@ s.school_data_transformations <- function(sabstract_secschools_data,wards_shapef
   makueni_secsch_teachers <- makueni_secsch_teachers[, gender := stringr::str_split(teachers_gender, "_", simplify = TRUE)[,2]]
   
   
-  ## create table for treemap data---
+  ## create table for treemap data----
   
-  secondary_treemap_data <- edep_sschools_cleaned %>% dplyr::group_by(wards_new) %>%
+  sec_treemap_data <- edep_sschools_cleaned %>% dplyr::group_by(wards_new) %>%
     dplyr::summarise(enrol_total = sum(enrol_total), total_teachers = sum(total_teachers)) %>%
     dplyr::mutate(studteach_ratio=round(enrol_total/total_teachers,0)) %>%
     dplyr::filter(studteach_ratio !=Inf & wards_new !="NA")
   
-  secondary_treemap_data$bucket <- cut(secondary_treemap_data$studteach_ratio, breaks = c(2,7,12,17,22,27,32,37,42,46))
+  ## transform data for sankey diagram----
+  
+  enrollment_data <- edep_sschools_cleaned %>% 
+    dplyr::group_by(wards_new) %>% 
+    dplyr::summarise(
+      boys=sum(as.numeric(enrol_boys)),
+      girls=sum(as.numeric(enrol_girls)),
+      total=sum(as.numeric(enrol_total))
+    )
+  
+  
+  sec.enrol.sankeydata <- enrollment_data %>% 
+    dplyr::select(-total) %>% 
+    tidyr::pivot_longer(cols = c(boys,girls), names_to = "gender", values_to = "count")
+  
+  sec_treemap_data$bucket <- cut(sec_treemap_data$studteach_ratio, breaks = c(2,7,12,17,22,27,32,37,42,46))
   
   # wrangling data from statistical abstract----
   
@@ -127,6 +142,6 @@ s.school_data_transformations <- function(sabstract_secschools_data,wards_shapef
   sabstract_secschools_cleaned <- separate(sabstract_secschools_data_long,col = "Gender_form_year",into = c("Gender" ,"form", "year"),sep = "_")
 
 
-  return(list(edep_sschools_cleaned,sabstract_secschools_cleaned,makueni_secsch_teachers,secondary_treemap_data))
+  return(list(edep_sschools_cleaned,sabstract_secschools_cleaned,makueni_secsch_teachers,sec_treemap_data,sec.enrol.sankeydata))
   
 }

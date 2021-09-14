@@ -30,7 +30,7 @@ pschools_enrolment_visualizations <- function(pryschool_abstract_data,edepartmen
       #mode = 'markers',
       showlegend=FALSE
     ) %>%
-    layout( title = "Primary school enrolments per County",
+    layout( title = "Primary school enrolments per SubCounty",
             yaxis=list(title="Number of students"),
             xaxis=list(title="Subcounty")
     )
