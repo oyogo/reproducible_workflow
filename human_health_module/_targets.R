@@ -20,14 +20,14 @@ source("R/facility_population_script.R")
 
 # Set target-specific options such as packages.
 tar_option_set(packages = c("dplyr","data.table","ggplot2","plotly","tidyr","stringr","stringi","raster",
-                            "sp","sf","leaflet","d3treeR","treemap","leaflet.extras","leaflet.providers"))
+                            "sp","sf","leaflet","d3treeR","treemap","leaflet.extras","leaflet.providers","packcircles"))
 
 # End this file with a list of target objects.
 list(
   #tar_target(education_rawdata_files, initialize_datapaths()),
   tar_target(importing_data, importing_datafiles()),
   tar_target(data_transformations, data_wrangling(importing_data[[1]],importing_data[[4]],importing_data[[3]])),
-  tar_target(facility_distribution, facility_distribution_visualizations()),
+  tar_target(facility_distribution, facility_distribution_visualizations(importing_data[[1]],importing_data[[4]])),
   tar_target(facility_distance, facility_distance_visualizations(importing_data[[2]],data_transformations[[2]],importing_data[[1]])),
   tar_target(facility_population, facility_population_visualizations(importing_data[[4]],data_transformations[[4]]))
   

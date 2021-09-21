@@ -1,11 +1,11 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
-facility_distribution|stem|40416199c817c0d3|c0bf557cb3eaaa7b|e162270bfe892c66|-1138739342||t18887.507741664s|a1c456b03adbfbf8|44|rds|vector|||2.833|package leaflet.extras was built under R version 4.0.2|
 importing_data|stem|290b5061225e39bc|23456b2110c863e3|a2f7cb22d552a709|1956919244||t18890.4487422597s|73fd7faf3aae105d|145576|rds|vector|||3.303|package leaflet.extras was built under R version 4.0.2|
 data_transformations|stem|ccfbd7e29f00e27c|8b0f9de80cf1ebf8|f0768c2e62704631|-1767255994||t18890.4518555006s|a29ff87d209e4046|448296|rds|vector|||2.87|CRS object has comment, which is lost in output|
 facility_population|stem|d77c4a4cc04f4623|04099a2851e12663|adb606830f7aac6c|-1779663604||t18890.5059796246s|52a88900827491c4|275395|rds|vector|||2.802|package leaflet.extras was built under R version 4.0.2|
+facility_distance|stem|1488cc05a0f5c3e8|dab00f4254cc967e|1fac3fd7bd46ba3e|1486611491||t18890.5121643677s|12282a684b694b30|340776|rds|vector|||3.095|package leaflet.extras was built under R version 4.0.2|
 importing_datafiles|function|18b8962ddc3d3a05||||||||||||||
 facility_distance_visualizations|function|e4c3013327f5d283||||||||||||||
 facility_population_visualizations|function|933beb6ceaf0b4d5||||||||||||||
-facility_distribution_visualizations|function|7f751aef04cd03cd||||||||||||||
+facility_distribution_visualizations|function|ba0fabcf20a22f7b||||||||||||||
 data_wrangling|function|e4411ce639717c16||||||||||||||
-facility_distance|stem|1488cc05a0f5c3e8|dab00f4254cc967e|1fac3fd7bd46ba3e|1486611491||t18890.5121643677s|12282a684b694b30|340776|rds|vector|||3.095|package leaflet.extras was built under R version 4.0.2|
+facility_distribution|stem|0c9eea0c450d5781|7c636feb6079bcef|4f34b80e2c71dfa7|-1138739342||t18891.3138421309s|fd87291ec4023848|360287|rds|vector|||2.726|Ignoring unknown aesthetics text|
