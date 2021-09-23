@@ -43,8 +43,7 @@ facility_distribution_visualizations <- function(hospitals,wards){
  
  
                        fsummary <- setDT(hospitals)[,.(percentages=round(100*.N/nrow(hospitals),0)), by=Facility.type]
-                       #colnames(fsummary) <- c("Facility.type","percentages")
-                       
+                      
                        fsummary[, label := paste0(Facility.type, "\n", percentages,"%")]
  
                        summary_facilities_type <- fsummary
@@ -56,10 +55,8 @@ facility_distribution_visualizations <- function(hospitals,wards){
                        facility.data<-dplyr::left_join(facility.data,facility.packing,by="id")
                        facility.data<-facility.data[,c(1:5)]
                        colnames(facility.data)[1:2]<-c("x","y")
-                       # Make the plot
-                       #m <- 
+                       
                    facility_bubblechart <-    ggplot2::ggplot(data = facility.data) +
-                         #geom_polygon(aes(x, y, group = id, fill=str_wrap(Facility.type,15)),alpha=.9) +
                          geom_polygon(
                            aes(x, y, group = id, fill=stringr::str_wrap(Facility.type,15), text = paste0("Facility type: ", Facility.type)),
                            alpha=.9

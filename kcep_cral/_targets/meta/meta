@@ -1,0 +1,17 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
+lockenv|stem|0fbe982d6d6c3c07|20826338e7d10ead|c3b5fc02cdc369c1|756795962||t18891.4481977857s|cb9b7c4480993436|4335|rds|vector|||22.102|package treemap was built under R version 4.0.2|
+production_visualization|function|36a83ba23c9aa88d||||||||||||||
+marketing|stem|55ce96f1e15c6434|1e50354d991e84c3|bd8683bbd60931ca|456791065||t18892.4208161985s|9fa96d566b51c864|83664|rds|vector|||0.123||
+production|stem|0ff94b8883bb0998|ea840e6d229c5918|24641b160b38b75d|1021767338||t18892.4208182239s|7c7ae218928289b0|88920|rds|vector|||0.013||
+data_transformation|stem|a76ced5ae0648df1|ea23f8bde66817a5|5a653ad34adefaeb|1795115290||t18893.3160102044s|8e70f655c794dd6b|298150|rds|vector|||3.669|Expected 3 pieces. Missing pieces filled with NA in 12000 rows 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ....|
+land_management|stem|46ae8996207e3408|6811077b471f4955|7a7ffa669d4720cb|-198755537||t18893.3160154872s|9fdee17cc9598a4b|131249|rds|vector|||0.296|NAs introduced by coercion|
+crop_management|stem|dde4e07382656370|ae5d8f6cf34709f7|0520ed4117b690aa|2087284468||t18893.3240858639s|ac0d1edbae33b771|373268|rds|vector|||3.097|package treemap was built under R version 4.0.2|
+importing_data|stem|106a18f5fc9b40c1|23456b2110c863e3|1c5d87fcd5804515|1956919244||t18893.3397068095s|8c9fd7adde41673d|66441|rds|vector|||2.666|package treemap was built under R version 4.0.2|
+importing_datafiles|function|25eb378db5eab47a||||||||||||||
+production_visualizations|function|36a83ba23c9aa88d||||||||||||||
+data_wrangling|function|d0d9db5dfb689e89||||||||||||||
+land_management_visualizations|function|6c46ba1c4ea92bed||||||||||||||
+marketing_visualizations|function|869167ee2954582c||||||||||||||
+interventions_visualizations|function|fe0fa2a43d53a5c9||||||||||||||
+crop_management_visualizations|function|ca18fe06dfa93649||||||||||||||
+interventions|stem|f70f6f9feec9901c|a8942d3891333469|c63523bb285e8380|-757760144||t18893.3469958959s|9840288c1ff6fe40|90546|rds|vector|||2.638|package treemap was built under R version 4.0.2|
