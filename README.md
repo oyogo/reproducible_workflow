@@ -7,7 +7,7 @@ Why targets?
  * The pipeline only runs those constituents/elements of the workflow which have changed. This saves you the pain of having to wait for costly runtime tasks that do not need updating.  
  * Implements computational reproducibility: the ability to document data, analyses, and models in such a way that another person won't find it hard to understand and re-execute your workflow. 
 
-## Example with Education module data from Makueni resource hub
+## Example with Education module data from Makueni County statistical report (Available publicly)
 
 Once you've cloned this repository, use the following commands to build and inspect the pipeline:   
 
